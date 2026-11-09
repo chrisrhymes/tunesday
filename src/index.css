@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+    --font-serif: "League Script", cursive;
+    --font-sans: "PT Sans", sans-serif;
+
+    --animate-scroll-in: scroll-in 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+
+    @keyframes scroll-in {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    /* Duration is overridden per note via inline style.
+       --dx, --dy and --rotate are set per note for a random direction. */
+    --animate-fly-away: fly-away 3s ease-out forwards;
+
+    @keyframes fly-away {
+        from {
+            transform: translate(0, 0) rotate(0deg) scale(1);
+            opacity: 1;
+        }
+        to {
+            transform: translate(var(--dx), var(--dy)) rotate(var(--rotate))
+                scale(1.5);
+            opacity: 0;
+        }
+    }
+}

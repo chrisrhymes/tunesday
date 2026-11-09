@@ -1,0 +1,66 @@
+export interface CategoryProps {
+  label: string;
+  options: string[];
+}
+
+export const categories: CategoryProps[] = [
+  {
+    label: "Beginning with the letter ",
+    options: [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+    ],
+  },
+  {
+    label: "Year ending in a ",
+    options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+  },
+  {
+    label: "Song from the decade ",
+    options: ["1960s", "1970s", "1980s", "1990s", "2000s", "2010s", "2020s"],
+  },
+  {
+    label: "From the genre ",
+    options: [
+      "dance",
+      "garage",
+      "punk",
+      "pop",
+      "rock",
+      "electronic",
+      "jazz",
+      "indie",
+      "country",
+      "blues",
+      "R&B",
+      "soul",
+      "metal",
+      "hip-hop",
+      "alternative",
+    ],
+  },
+];
