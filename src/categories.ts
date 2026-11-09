@@ -63,4 +63,20 @@ export const categories: CategoryProps[] = [
       "alternative",
     ],
   },
+  {
+    label: "Songs about ",
+    options: [
+      "love",
+      "life",
+      "break-ups",
+      "happiness",
+      "space",
+      "discovery",
+      "family",
+      "friends",
+      "animals",
+      "colours",
+      "food",
+    ],
+  },
 ];

@@ -127,7 +127,7 @@ const App = () => {
 
   return (
     <div className="container mx-auto flex min-h-dvh flex-col items-center justify-center gap-8 p-4">
-      <h1 className="my-8 font-serif text-8xl font-bold text-fuchsia-800 text-shadow-fuchsia-400 text-shadow-lg">
+      <h1 className="my-8 font-serif text-6xl font-bold text-fuchsia-800 text-shadow-fuchsia-400 text-shadow-lg md:text-8xl">
         Tunesday
       </h1>
 
